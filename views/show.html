@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Angry Birds Info{{#angryBirdsList}}
+    <title>Angry Birds Info</title>
+</head>
+<body>
+    {{#angryBirdsList}}
             <h2>Name: {{name}}</h2>
             <h3>Abilities: {{abilities}}</h3>
             <h3>Group: {{group}}</h3>
             <img src="{{image}}" alt="{{name}}"><br><br><br><br>
             {{/angryBirdsList}}
          <h3> <a href="/angry_birds">Back to angry birds list</a></h3><br>
-        <h3><a href="/">Back to Homepeage</a></h3></title>
-</head>
-<body>
-    
+        <h3><a href="/">Back to Homepeage</a></h3>
 </body>
 </html>
